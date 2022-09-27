@@ -31,7 +31,7 @@
 			<nav class="navigation__nav">
 				<ul class="navigation__list">
 					<li class="navigation__item">
-						<a href="#" class="navigation__link"
+						<a href="#section-about" class="navigation__link"
 							><span>01</span>About Natours</a
 						>
 					</li>
@@ -41,7 +41,7 @@
 						>
 					</li>
 					<li class="navigation__item">
-						<a href="#" class="navigation__link"
+						<a href="#section-tours" class="navigation__link"
 							><span>03</span>Popular Tours</a
 						>
 					</li>
@@ -79,7 +79,7 @@
 			</div>
 		</header>
 		<main>
-			<section class="section-about">
+			<section class="section-about" id="section-about">
 				<div class="u-center-text u-margin-bottom-big">
 					<h2 class="heading-secondary">
 						Exciting tours for adventurous people
@@ -140,7 +140,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="section-features">
+			<section class="section-features" id="section-features">
 				<div class="row">
 					<div class="col-1-of-4">
 						<div class="feature-box">
@@ -214,7 +214,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="section-tours">
+			<section class="section-tours" id="section-tours">
 				<div class="u-center-text u-margin-bottom-big">
 					<h2 class="heading-secondary">Most popular tours</h2>
 				</div>
@@ -255,7 +255,9 @@
 											$420
 										</p>
 									</div>
-									<a href="#" class="btn btn--white"
+									<a
+										href="#popup"
+										class="btn btn--white"
 										>Book now</a
 									>
 								</div>
@@ -300,7 +302,9 @@
 											$680
 										</p>
 									</div>
-									<a href="#" class="btn btn--white"
+									<a
+										href="#popup"
+										class="btn btn--white"
 										>Book now</a
 									>
 								</div>
@@ -345,7 +349,9 @@
 											$920
 										</p>
 									</div>
-									<a href="#" class="btn btn--white"
+									<a
+										href="#popup"
+										class="btn btn--white"
 										>Book now</a
 									>
 								</div>
@@ -436,13 +442,11 @@
 				</div>
 			</section>
 
-			<section class="section-book">
+			<section class="section-book" id="section-book">
 				<div class="row">
 					<div class="book">
 						<div class="book__form">
-							<div
-								class="u-margin-top-big u-margin-bottom-medium"
-							>
+							<div class="u-margin-bottom-medium">
 								<h2 class="heading-secondary">
 									Start booking now
 								</h2>
@@ -582,7 +586,7 @@
 			</div>
 		</footer>
 
-		<!-- <div class="popup">
+		<div class="popup" id="popup">
 			<div class="popup__content">
 				<div class="popup__left">
 					<img
@@ -593,18 +597,36 @@
 					class="popup__img" //>
 				</div>
 				<div class="popup__right">
-					<h2 class="heading-secondary">Hello!</h2>
-					<h3 class="heading-tertiary">There</h3>
+					<a href="#section-tours" class="popup__close"
+						>&times;</a
+					>
+					<h2 class="heading-secondary">Start Booking now!</h2>
+					<h3
+						class="heading-tertiary u-margin-top-small u-margin-bottom-small"
+					>
+						Please- read this term before booking
+					</h3>
 					<p class="popup__text">
 						Lorem ipsum dolor sit amet consectetur adipisicing
 						elit. Cum illo sunt, omnis explicabo harum
 						voluptatum distinctio ad maxime sed delectus a,
 						neque iure quo cupiditate eos beatae corrupti
-						laudantium. Placeat.
+						laudantium. Placeat. Lorem ipsum dolor, sit amet
+						consectetur adipisicing elit. Velit doloremque,
+						laudantium autem error eum inventore quaerat
+						eaque? Esse voluptates illo officia veniam
+						quibusdam eligendi rem culpa quae fugit laboriosam
+						vero ipsum quis nesciunt sed debitis, consectetur
+						assumenda illum non, fuga pariatur expedita id
+						inventore enim vel? Odit iure corrupti ratione ea,
+						molestiae officia consectetur in tenetur autem,
+						consequatur ipsum.
 					</p>
-					<a href="#" class="btn btn--green">Click</a>
+					<a href="#section-book" class="btn btn--green"
+						>book now!</a
+					>
 				</div>
 			</div>
-		</div> -->
+		</div>
 	</body>
 </html>
